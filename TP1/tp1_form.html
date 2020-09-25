@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>LTW TP1 Ex3: Form</title>
+        <meta charset="UTF-8">
+    </head>    
+    <body>
+        <form action="save.php" method="get">
+            <fieldset>
+                <label>Name: <input type="text" name="name"></label><p></p>
+    
+                <label>Age: </label>
+                        <label><input type="radio" name="age" value="<18">&lt;18</label>
+                        <label><input type="radio" name="age" value="19-35">19-35</label>
+                        <label><input type="radio" name="age" value="36-48">36-48</label>
+                        <label><input type="radio" name="age" value=">49">&gt;49</label><p></p>
+                
+                <label>Profession: <input type="text" name="name"></label><p></p>
+                
+                <label>Country: </label>
+                    <select name="country">
+                        <option value="portugal" selected>Portugal</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="usa">USA</option>
+                        <option value="spain">Spain</option>
+                        <option value="france">France</option>
+                        <option value="italy">Italy</option>
+                        <option value="germany">Germany</option>
+                        <option value="china">China</option>
+                        <option value="other">Other</option>
+                    </select><p></p>
+    
+                <label>Interests: </label>
+                    <label><input type="checkbox" name="interests" value="music">Music</label>
+                    <label><input type="checkbox" name="interests" value="swim">Swimming</label>
+                    <label><input type="checkbox" name="interests" value="programming">Programming</label>
+                <p></p>
+    
+                <label>How did you find this website? </label><p></p>
+                    <textarea name="description" rows="4" cols="50"></textarea>
+                <p></p>
+                
+                <button type="submit">Submit!</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
