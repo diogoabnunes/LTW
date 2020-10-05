@@ -1,0 +1,125 @@
+body {
+    width: 127.5%;
+    background-color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+body > header {
+    background-color: #046DD5;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding: 1em;
+    margin-top: 0em;
+    padding-top: 1.4em;
+    font-size: 1em;
+}
+
+body > header h1 {
+    font-weight: bolder;
+    margin: 0;
+    font-size: 1.7em;
+    margin-bottom: 0.1em;
+}
+
+body > header h2 {
+    font-weight: bolder;
+    margin: 0;
+    font-size: 0.85em;
+    margin-bottom: 0.5em;
+}
+
+#signup a {
+    font-size: 0.9em;
+}
+
+#signup a:first-of-type:after  {
+    content: " |";
+}
+
+nav {
+    background: white;
+}
+
+nav input {
+    display: none;
+}
+
+nav .hamburger {
+    display: none;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    border-top-style: solid;
+    border-top-width: 0.3em;
+    padding: 1em;
+}
+
+nav ul li:nth-child(1) {
+    border-color: #E1493E;
+}
+
+nav ul li:nth-child(2) {
+    border-color: #8ABA56;
+}
+
+nav ul li:nth-child(3) {
+    border-color: #5B4282;
+}
+
+nav ul li:nth-child(4) {
+    border-color: #FF8932;
+}
+
+nav ul li:nth-child(5) {
+    border-color: #19B6E9;
+}
+
+nav ul li:nth-child(6) {
+    border-color: #E84C8B;
+}
+
+#related {
+    background-color: #2A2F33;
+    color: #FFFFFF;
+    padding: 1em;
+}
+
+#news , body > footer {
+    margin-right: 1em;
+}
+
+#news article {
+    background: white;
+    margin-top: 1em;
+}
+
+#news article img {
+    width: 100%;
+}
+   
+
+body > footer {
+    background-color: #046DD5;
+}
+
+footer {
+    background-color: #F4655F;
+}
+
+/*
+Main colors used: #2A2F33 (grey), #046DD5(blue) 
+            and #F4655F (pink).
+Fonts used: Verdana and Georgia.
